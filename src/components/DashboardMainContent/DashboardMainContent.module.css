@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.topRow {
+  display: flex;
+  gap: 32px;
+}
+.bottomRow {
+  display: flex;
+  gap: 32px;
+}
+@media (max-width: 900px) {
+  .topRow, .bottomRow {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

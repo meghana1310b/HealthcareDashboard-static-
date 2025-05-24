@@ -1,0 +1,52 @@
+.calendarSection {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 24px;
+  flex: 1;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.dayCell {
+  background: var(--sidebar-bg);
+  border-radius: 8px;
+  padding: 8px;
+  min-height: 50px;
+}
+.dayDate {
+  font-weight: bold;
+  color: var(--primary-blue);
+}
+.times {
+  margin-top: 4px;
+  font-size: 0.85em;
+}
+.time {
+  background: var(--primary-blue);
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-right: 2px;
+}
+.appointmentCards {
+  display: flex;
+  gap: 8px;
+}
+.appointmentCard {
+  background: var(--accent-green);
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-weight: 500;
+}

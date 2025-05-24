@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--sidebar-bg);
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: var(--box-shadow);
+}
+.title {
+  font-weight: 500;
+  color: var(--text-main);
+}
+.time {
+  font-size: 0.9em;
+  color: var(--text-secondary);
+}

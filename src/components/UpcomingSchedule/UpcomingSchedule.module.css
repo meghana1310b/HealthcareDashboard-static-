@@ -1,0 +1,19 @@
+.schedule {
+  flex: 2;
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 24px;
+}
+.daySection {
+  margin-bottom: 16px;
+}
+.dayTitle {
+  font-weight: 600;
+  color: var(--primary-blue);
+  margin-bottom: 8px;
+}
+.cards {
+  display: flex;
+  gap: 12px;
+}

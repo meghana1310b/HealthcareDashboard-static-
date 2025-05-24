@@ -1,0 +1,28 @@
+.sidebar {
+  width: 220px;
+  background: var(--sidebar-bg);
+  padding: 32px 16px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  min-height: 100vh;
+}
+.heading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  color: var(--text-main);
+  font-size: 1rem;
+  cursor: pointer;
+}
+.navItem i {
+  font-size: 1.2em;
+  color: var(--primary-blue);
+}

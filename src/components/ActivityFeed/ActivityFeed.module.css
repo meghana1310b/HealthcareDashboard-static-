@@ -1,0 +1,22 @@
+.activity {
+  flex: 1;
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 24px;
+}
+.summary {
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+.barChart {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 100px;
+}
+.bar {
+  width: 18px;
+  background: var(--primary-blue);
+  border-radius: 6px 6px 0 0;
+}

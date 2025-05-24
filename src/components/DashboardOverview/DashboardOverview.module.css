@@ -1,0 +1,9 @@
+.overview {
+  display: flex;
+  gap: 24px;
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 24px;
+  flex: 2;
+}

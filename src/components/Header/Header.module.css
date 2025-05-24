@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--header-bg);
+  padding: 24px 32px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin-bottom: 24px;
+}
+.logoSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo {
+  width: 36px;
+  height: 36px;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-blue);
+}
+.searchSection {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.searchBar {
+  border: none;
+  background: var(--sidebar-bg);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  width: 180px;
+}
+.addBtn {
+  background: var(--primary-blue);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.username {
+  color: var(--text-main);
+  font-weight: 500;
+}
