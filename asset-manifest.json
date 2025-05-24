@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HealthcareDashboard-static-/static/css/main.64fdf196.css",
+    "main.js": "/HealthcareDashboard-static-/static/js/main.3fbf4c40.js",
+    "static/media/avatar.png": "/HealthcareDashboard-static-/static/media/avatar.5fedd64859d19a7179b8.png",
+    "index.html": "/HealthcareDashboard-static-/index.html",
+    "static/media/anatomy.svg": "/HealthcareDashboard-static-/static/media/anatomy.1a609f1b2860d74bfd5d71ed2bf2b20f.svg",
+    "static/media/logo.svg": "/HealthcareDashboard-static-/static/media/logo.ed1154e2dd62b538da5f2c31d3db8f05.svg",
+    "main.64fdf196.css.map": "/HealthcareDashboard-static-/static/css/main.64fdf196.css.map",
+    "main.3fbf4c40.js.map": "/HealthcareDashboard-static-/static/js/main.3fbf4c40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64fdf196.css",
+    "static/js/main.3fbf4c40.js"
+  ]
+}
