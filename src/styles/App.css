@@ -2,14 +2,17 @@
   display: flex;
   min-height: 100vh;
   background: #f4f6fa;
-  font-family: var(--font-main);
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
 }
+
 .main-content {
   flex: 1;
   padding: 32px;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
+
 @media (max-width: 900px) {
   .app-root {
     flex-direction: column;

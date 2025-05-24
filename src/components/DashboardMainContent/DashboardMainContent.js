@@ -1,21 +1,25 @@
 import React from 'react';
-import DashboardOverview from '../DashboardOverview/DashboardOverview';
+import styles from './DashboardMainContent.module.css';
+import AnatomySection from '../AnatomySection/AnatomySection';
+import HealthStatusCards from '../HealthStatusCards/HealthStatusCards';
+import ActivityFeed from '../ActivityFeed/ActivityFeed';
 import CalendarView from '../CalendarView/CalendarView';
 import UpcomingSchedule from '../UpcomingSchedule/UpcomingSchedule';
-import ActivityFeed from '../ActivityFeed/ActivityFeed';
-import styles from './DashboardMainContent.module.css';
 
 const DashboardMainContent = () => (
-  <main className={styles.main}>
-    <div className={styles.topRow}>
-      <DashboardOverview />
-      <CalendarView />
-    </div>
-    <div className={styles.bottomRow}>
-      <UpcomingSchedule />
+  <div className={styles.main}>
+    {/* Left Panel */}
+    <div className={styles.leftPanel}>
+      <AnatomySection />
+      <HealthStatusCards />
       <ActivityFeed />
     </div>
-  </main>
+    {/* Right Panel */}
+    <div className={styles.rightPanel}>
+      <CalendarView />
+      <UpcomingSchedule />
+    </div>
+  </div>
 );
 
 export default DashboardMainContent;

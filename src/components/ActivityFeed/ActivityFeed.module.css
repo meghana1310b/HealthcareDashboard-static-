@@ -1,5 +1,4 @@
 .activity {
-  flex: 1;
   background: var(--card-bg);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
@@ -12,11 +11,17 @@
 .barChart {
   display: flex;
   align-items: flex-end;
-  gap: 8px;
+  gap: 12px;
   height: 100px;
 }
+.barWrapper { display: flex; flex-direction: column; align-items: center; }
 .bar {
-  width: 18px;
+  width: 12px;
   background: var(--primary-blue);
   border-radius: 6px 6px 0 0;
+  margin-bottom: 4px;
+}
+.day {
+  font-size: 0.8em;
+  color: var(--text-secondary);
 }

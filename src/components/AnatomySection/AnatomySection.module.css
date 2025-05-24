@@ -1,21 +1,46 @@
 .anatomySection {
+  position: relative;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
 }
-.anatomyImg {
-  width: 120px;
-  height: auto;
-}
-.indicators {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.indicator {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.healthcarText {
+  font-size: 3rem;
+  color: #3E7BFA;
   font-weight: 500;
+  margin-bottom: 32px;
 }
+.pill {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 6px 18px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(62,123,250,0.10);
+  position: absolute;
+}
+.pill.heart { background: #3E7BFA; top: 20px; left: 180px; }
+.pill.leg { background: #21C87A; bottom: 20px; left: 0; }
+.statusCard {
+  background: #f7fafc;
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+.statusBar {
+  height: 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+.anatomyImage {
+  width: 80px;
+  height: 120px;
+  display: block;
+  margin: 0 auto 16px auto;
+}
+
+.statusBar.red { background: #FF6B6B; }
+.statusBar.green { background: #21C87A; }

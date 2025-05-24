@@ -3,7 +3,7 @@ import styles from './SimpleAppointmentCard.module.css';
 
 const SimpleAppointmentCard = ({ title, time, icon }) => (
   <div className={styles.card}>
-    <i className={icon}></i>
+    <span className={styles.icon}>{icon}</span>
     <div>
       <div className={styles.title}>{title}</div>
       <div className={styles.time}>{time}</div>
